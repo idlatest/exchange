@@ -1,0 +1,103 @@
+<template>
+  <div>
+    <div class="min-h-10 lg:h-10 lg:flex hidden bg-black shadow-md px-16 items-center">
+      <ul class="list-reset block lg:flex">
+        <li class="lg:pr-8 border-r-2">Last Price: <span class="text-white font-semibold text-lg">1,039.99</span></li>
+        <li class="lg:px-8 border-r-2">24h Spread: <span class="text-white font-semibold text-lg">1,039.99</span></li>
+        <li class="lg:px-8 border-r-2">24h High: <span class="text-white font-semibold text-lg">1,039.99</span></li>
+        <li class="lg:px-8 border-r-2">24h Low: <span class="text-white font-semibold text-lg">1,039.99</span></li>
+        <li class="lg:px-8">24h Volume: <span class="text-white font-semibold text-lg">1,039.99</span></li>
+      </ul>
+    </div>
+    <div class="flex flex-wrap mx-6 mt-6">
+      <div class="w-full md:w-1/2 lg:w-1/4 md:px-2 mb-6">
+        <div class="bg-grey-darkest rounded h-80">
+          <div class="p-4">
+            <h3 class="text-white mb-4">Markets: <span class="ml-6">BLN/BTC</span></h3>
+            <div class="flex justify-between mb-6">
+              <input class="mr-3 bg-transparent text-grey outline-none" type="text" placeholder="Search...">
+              <select class="w-20 p-1 rounded text-white bg-black outline-none">
+                <option value="BLN">BLN</option>
+                <option value="BLN">BTC</option>
+                <option value="BLN">ETH</option>
+              </select>
+            </div>
+            <div data-simplebar class="overflow-y-auto h-64 min-h-64">
+              <table class="w-full">
+                <thead>
+                  <tr class="mb-6">
+                    <th class="w-1/3 py-3 px-4 text-left">Name</th>
+                    <th class="w-1/3 py-3 px-4 text-left">Price</th>
+                    <th class="w-1/3 py-3 px-4 text-left">Change</th>
+                  </tr>
+                </thead>
+                <tbody class="">
+                  <tr class="hover:bg-grey-darker">
+                    <td class="w-1/3 py-2 px-4 rounded-l-lg"><span class="font-semibold text-white">BTC</span></td>
+                    <td class="w-1/3 py-2 px-4">8000.00</td>
+                    <td class="w-1/3 py-2 px-4 rounded-r-lg"><span class="text-green">&blacktriangle; 0.10%</span></td>
+                  </tr>
+                  <tr>
+                    <td class="w-1/3 py-2 px-4 rounded-l-lg"><span class="font-semibold text-white">ETH</span></td>
+                    <td class="w-1/3 py-2 px-4">8000.00</td>
+                    <td class="w-1/3 py-2 px-4"><span>&#x02550; 0.10%</span></td>
+                  </tr>
+                  <tr>
+                    <td class="w-1/3 py-2 px-4 rounded-l-lg"><span class="font-semibold text-white">BAT</span></td>
+                    <td class="w-1/3 py-2 px-4">8000.00</td>
+                    <td class="w-1/3 py-2 px-4"><span class="text-green">&blacktriangle; 0.10%</span></td>
+                  </tr>
+                  <tr>
+                    <td class="w-1/3 py-2 px-4"><span class="font-semibold text-white">BLN</span></td>
+                    <td class="w-1/3 py-2 px-4">8000.00</td>
+                    <td class="w-1/3 py-2 px-4"><span class="text-green">&blacktriangle; 0.10%</span></td>
+                  </tr>
+                  <tr>
+                    <td class="w-1/3 py-2 px-4"><span class="font-semibold text-white">CVC</span></td>
+                    <td class="w-1/3 py-2 px-4">8000.00</td>
+                    <td class="w-1/3 py-2 px-4"><span class="text-red">&blacktriangledown; 0.10%</span></td>
+                  </tr>
+                  <tr>
+                    <td class="w-1/3 py-2 px-4"><span class="font-semibold text-white">DGD</span></td>
+                    <td class="w-1/3 py-2 px-4">8000.00</td>
+                    <td class="w-1/3 py-2 px-4"><span class="text-green">&blacktriangle; 0.10%</span></td>
+                  </tr>
+                  <tr>
+                    <td class="w-1/3 py-2 px-4"><span class="font-semibold text-white">DTL</span></td>
+                    <td class="w-1/3 py-2 px-4">8000.00</td>
+                    <td class="w-1/3 py-2 px-4"><span class="text-green">&blacktriangle; 0.10%</span></td>
+                  </tr>
+                  <tr>
+                    <td class="w-1/3 py-2 px-4"><span class="font-semibold text-white">FUN</span></td>
+                    <td class="w-1/3 py-2 px-4">8000.00</td>
+                    <td class="w-1/3 py-2 px-4"><span class="text-red">&blacktriangledown; 0.10%</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-full lg:w-1/2 md:px-2 mb-6">
+        <div class="bg-grey-darkest rounded-lg h-80">
+          <div class="p-4">
+            <h3 class="text-white">Markets: <span class="ml-6">BLN/BTC</span></h3>
+          </div>
+        </div>
+      </div>
+      <div class="w-full md:w-1/2 lg:w-1/4 md:px-2 mb-6">
+        <div class="bg-grey-darkest rounded-lg h-80">
+          <div class="p-4">
+            <h3 class="text-white">Markets: <span class="ml-6">BLN/BTC</span></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'exchange'
+}
+</script>
