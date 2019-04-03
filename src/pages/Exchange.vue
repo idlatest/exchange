@@ -11,7 +11,7 @@
     </div>
     <div class="flex flex-wrap mx-6 mt-6">
       <div class="w-full md:w-1/2 lg:w-1/4 md:px-2 mb-6">
-        <div class="bg-grey-darkest rounded h-80">
+        <div class="bg-grey-darkest rounded h-90">
           <div class="p-4">
             <h3 class="text-white mb-4">Markets: <span class="ml-6">BLN/BTC</span></h3>
             <div class="flex justify-between mb-6">
@@ -22,7 +22,7 @@
                 <option value="BLN">ETH</option>
               </select>
             </div>
-            <div data-simplebar class="overflow-y-auto h-64 min-h-64">
+            <div data-simplebar class="overflow-y-auto h-70">
               <table class="w-full">
                 <thead>
                   <tr class="mb-6">
@@ -33,7 +33,9 @@
                 </thead>
                 <tbody class="">
                   <tr class="hover:bg-grey-darker">
-                    <td class="w-1/3 py-2 px-4 rounded-l-lg"><span class="font-semibold text-white">BTC</span></td>
+                    <td class="w-1/3 py-2 px-4 rounded-l-lg">
+                      <span class="font-semibold text-white">BTC</span>
+                    </td>
                     <td class="w-1/3 py-2 px-4">8000.00</td>
                     <td class="w-1/3 py-2 px-4 rounded-r-lg"><span class="text-green">&blacktriangle; 0.10%</span></td>
                   </tr>
@@ -72,6 +74,21 @@
                     <td class="w-1/3 py-2 px-4">8000.00</td>
                     <td class="w-1/3 py-2 px-4"><span class="text-red">&blacktriangledown; 0.10%</span></td>
                   </tr>
+                  <tr>
+                    <td class="w-1/3 py-2 px-4"><span class="font-semibold text-white">DTL</span></td>
+                    <td class="w-1/3 py-2 px-4">8000.00</td>
+                    <td class="w-1/3 py-2 px-4"><span class="text-green">&blacktriangle; 0.10%</span></td>
+                  </tr>
+                  <tr>
+                    <td class="w-1/3 py-2 px-4"><span class="font-semibold text-white">DTL</span></td>
+                    <td class="w-1/3 py-2 px-4">8000.00</td>
+                    <td class="w-1/3 py-2 px-4"><span class="text-green">&blacktriangle; 0.10%</span></td>
+                  </tr>
+                  <tr>
+                    <td class="w-1/3 py-2 px-4"><span class="font-semibold text-white">DTL</span></td>
+                    <td class="w-1/3 py-2 px-4">8000.00</td>
+                    <td class="w-1/3 py-2 px-4"><span class="text-green">&blacktriangle; 0.10%</span></td>
+                  </tr>
                 </tbody>
               </table>
             </div>
@@ -79,16 +96,40 @@
         </div>
       </div>
       <div class="w-full lg:w-1/2 md:px-2 mb-6">
-        <div class="bg-grey-darkest rounded-lg h-80">
+        <div class="bg-grey-darkest rounded h-90">
           <div class="p-4">
-            <h3 class="text-white">Markets: <span class="ml-6">BLN/BTC</span></h3>
+            <h3 class="text-white">Chart</h3>
           </div>
         </div>
       </div>
       <div class="w-full md:w-1/2 lg:w-1/4 md:px-2 mb-6">
-        <div class="bg-grey-darkest rounded-lg h-80">
+        <div class="bg-grey-darkest rounded h-90">
           <div class="p-4">
-            <h3 class="text-white">Markets: <span class="ml-6">BLN/BTC</span></h3>
+            <ul class="list-reset flex mb-10 mt-4">
+              <li><a href="#" class="text-white no-underline bg-red block mr-4 px-4 py-2 rounded-full">+ Add Fund</a></li>
+              <li><a href="#" class="text-white no-underline bg-blue block px-4 py-2 rounded-full">- Withdraw</a></li>
+            </ul>
+            <ul class="list-reset flex mb-6">
+              <li><a href="#" class="text-white text-base mr-6 no-underline font-semibold">Buy BTC</a></li>
+              <li><a href="#" class="text-grey text-base mr-6 no-underline font-semibold">Sell BLN</a></li>
+            </ul>
+            <div>
+              <div class="mb-4">
+                <label for="price" class="font-bold block mb-2">Price:</label>
+                <input type="text" id="price" class="w-full px-4 py-2 rounded bg-black text-grey">
+              </div>
+              <div class="mb-4">
+                <label for="price" class="font-bold block mb-2">Qty:</label>
+                <input type="text" id="price" class="w-full px-4 py-2 rounded bg-black text-grey">
+              </div>
+              <div class="mb-4">
+                <label for="price" class="font-bold block mb-2">Total:</label>
+                <input type="text" id="price" class="w-full px-4 py-2 rounded bg-black text-grey">
+              </div>
+              <div class="text-right">
+                <input type="submit" class="px-4 py-2 rounded bg-green text-white">
+              </div>
+            </div>
           </div>
         </div>
       </div>
