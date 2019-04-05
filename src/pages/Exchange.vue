@@ -9,8 +9,8 @@
         <li class="lg:px-8">24h Volume: <span class="text-white font-semibold text-base">1,039.99</span></li>
       </ul>
     </div>
-    <div class="flex flex-wrap mx-6 mt-6">
-      <div class="w-full md:w-1/2 lg:w-1/4 md:px-2 mb-4">
+    <div class="flex flex-wrap mx-6 mt-6 mb-2">
+      <div class="w-full md:w-1/2 lg:w-1/4 md:px-1">
         <div class="bg-grey-darkest rounded h-90">
           <div class="p-4">
             <h3 class="text-white mb-4">Markets: <span class="ml-6">BLN/BTC</span></h3>
@@ -26,68 +26,68 @@
               <table class="w-full">
                 <thead>
                   <tr class="mb-6">
-                    <th class="w-1/3 py-3 px-4 text-left">Name</th>
-                    <th class="w-1/3 py-3 px-4 text-left">Price</th>
-                    <th class="w-1/3 py-3 px-4 text-left">Change</th>
+                    <th class="py-3 px-2 text-left">Name</th>
+                    <th class="py-3 px-2 text-left">Price</th>
+                    <th class="py-3 px-2 text-left">Change</th>
                   </tr>
                 </thead>
                 <tbody class="">
                   <tr class="hover:bg-grey-darker">
-                    <td class="w-1/3 py-2 px-4 rounded-l-lg">
+                    <td class="py-2 px-2 rounded-l-lg">
                       <span class="font-semibold text-white">BTC</span>
                     </td>
-                    <td class="w-1/3 py-2 px-4">8000.00</td>
-                    <td class="w-1/3 py-2 px-4 rounded-r-lg"><span class="text-green">&blacktriangle; 0.10%</span></td>
+                    <td class="py-2 px-2">8000.00</td>
+                    <td class="py-2 px-2 rounded-r-lg"><span class="text-green">&blacktriangle; 0.10%</span></td>
                   </tr>
                   <tr>
-                    <td class="w-1/3 py-2 px-4 rounded-l-lg"><span class="font-semibold text-white">ETH</span></td>
-                    <td class="w-1/3 py-2 px-4">8000.00</td>
-                    <td class="w-1/3 py-2 px-4"><span>&#x02550; 0.10%</span></td>
+                    <td class="py-2 px-2 rounded-l-lg"><span class="font-semibold text-white">ETH</span></td>
+                    <td class="py-2 px-2">8000.00</td>
+                    <td class="py-2 px-2"><span>&#x02550; 0.10%</span></td>
                   </tr>
                   <tr>
-                    <td class="w-1/3 py-2 px-4 rounded-l-lg"><span class="font-semibold text-white">BAT</span></td>
-                    <td class="w-1/3 py-2 px-4">8000.00</td>
-                    <td class="w-1/3 py-2 px-4"><span class="text-green">&blacktriangle; 0.10%</span></td>
+                    <td class="py-2 px-2 rounded-l-lg"><span class="font-semibold text-white">BAT</span></td>
+                    <td class="py-2 px-2">8000.00</td>
+                    <td class="py-2 px-2"><span class="text-green">&blacktriangle; 0.10%</span></td>
                   </tr>
                   <tr>
-                    <td class="w-1/3 py-2 px-4"><span class="font-semibold text-white">BLN</span></td>
-                    <td class="w-1/3 py-2 px-4">8000.00</td>
-                    <td class="w-1/3 py-2 px-4"><span class="text-green">&blacktriangle; 0.10%</span></td>
+                    <td class="py-2 px-2"><span class="font-semibold text-white">BLN</span></td>
+                    <td class="py-2 px-2">8000.00</td>
+                    <td class="py-2 px-2"><span class="text-green">&blacktriangle; 0.10%</span></td>
                   </tr>
                   <tr>
-                    <td class="w-1/3 py-2 px-4"><span class="font-semibold text-white">CVC</span></td>
-                    <td class="w-1/3 py-2 px-4">8000.00</td>
-                    <td class="w-1/3 py-2 px-4"><span class="text-red">&blacktriangledown; 0.10%</span></td>
+                    <td class="py-2 px-2"><span class="font-semibold text-white">CVC</span></td>
+                    <td class="py-2 px-2">8000.00</td>
+                    <td class="py-2 px-2"><span class="text-red">&blacktriangledown; 0.10%</span></td>
                   </tr>
                   <tr>
-                    <td class="w-1/3 py-2 px-4"><span class="font-semibold text-white">DGD</span></td>
-                    <td class="w-1/3 py-2 px-4">8000.00</td>
-                    <td class="w-1/3 py-2 px-4"><span class="text-green">&blacktriangle; 0.10%</span></td>
+                    <td class="py-2 px-2"><span class="font-semibold text-white">DGD</span></td>
+                    <td class="py-2 px-2">8000.00</td>
+                    <td class="py-2 px-2"><span class="text-green">&blacktriangle; 0.10%</span></td>
                   </tr>
                   <tr>
-                    <td class="w-1/3 py-2 px-4"><span class="font-semibold text-white">DTL</span></td>
-                    <td class="w-1/3 py-2 px-4">8000.00</td>
-                    <td class="w-1/3 py-2 px-4"><span class="text-green">&blacktriangle; 0.10%</span></td>
+                    <td class="py-2 px-2"><span class="font-semibold text-white">DTL</span></td>
+                    <td class="py-2 px-2">8000.00</td>
+                    <td class="py-2 px-2"><span class="text-green">&blacktriangle; 0.10%</span></td>
                   </tr>
                   <tr>
-                    <td class="w-1/3 py-2 px-4"><span class="font-semibold text-white">FUN</span></td>
-                    <td class="w-1/3 py-2 px-4">8000.00</td>
-                    <td class="w-1/3 py-2 px-4"><span class="text-red">&blacktriangledown; 0.10%</span></td>
+                    <td class="py-2 px-2"><span class="font-semibold text-white">FUN</span></td>
+                    <td class="py-2 px-2">8000.00</td>
+                    <td class="py-2 px-2"><span class="text-red">&blacktriangledown; 0.10%</span></td>
                   </tr>
                   <tr>
-                    <td class="w-1/3 py-2 px-4"><span class="font-semibold text-white">DTL</span></td>
-                    <td class="w-1/3 py-2 px-4">8000.00</td>
-                    <td class="w-1/3 py-2 px-4"><span class="text-green">&blacktriangle; 0.10%</span></td>
+                    <td class="py-2 px-2"><span class="font-semibold text-white">DTL</span></td>
+                    <td class="py-2 px-2">8000.00</td>
+                    <td class="py-2 px-2"><span class="text-green">&blacktriangle; 0.10%</span></td>
                   </tr>
                   <tr>
-                    <td class="w-1/3 py-2 px-4"><span class="font-semibold text-white">DTL</span></td>
-                    <td class="w-1/3 py-2 px-4">8000.00</td>
-                    <td class="w-1/3 py-2 px-4"><span class="text-green">&blacktriangle; 0.10%</span></td>
+                    <td class="py-2 px-2"><span class="font-semibold text-white">DTL</span></td>
+                    <td class="py-2 px-2">8000.00</td>
+                    <td class="py-2 px-2"><span class="text-green">&blacktriangle; 0.10%</span></td>
                   </tr>
                   <tr>
-                    <td class="w-1/3 py-2 px-4"><span class="font-semibold text-white">DTL</span></td>
-                    <td class="w-1/3 py-2 px-4">8000.00</td>
-                    <td class="w-1/3 py-2 px-4"><span class="text-green">&blacktriangle; 0.10%</span></td>
+                    <td class="py-2 px-2"><span class="font-semibold text-white">DTL</span></td>
+                    <td class="py-2 px-2">8000.00</td>
+                    <td class="py-2 px-2"><span class="text-green">&blacktriangle; 0.10%</span></td>
                   </tr>
                 </tbody>
               </table>
@@ -95,14 +95,14 @@
           </div>
         </div>
       </div>
-      <div class="w-full lg:w-1/2 md:px-2 mb-4">
+      <div class="w-full lg:w-1/2 md:px-1">
         <div class="bg-grey-darkest rounded h-90">
           <div class="p-4">
             <h3 class="text-white">Chart</h3>
           </div>
         </div>
       </div>
-      <div class="w-full md:w-1/2 lg:w-1/4 md:px-2 mb-4">
+      <div class="w-full md:w-1/2 lg:w-1/4 md:px-1">
         <div class="bg-grey-darkest rounded h-90">
           <div class="p-4">
             <ul class="list-reset flex mb-10 mt-4">
@@ -134,8 +134,8 @@
         </div>
       </div>
     </div>
-    <div class="flex flex-wrap mx-6">
-      <div class="w-full md:w-1/2 lg:w-1/4 md:px-2 mb-6">
+    <div class="flex flex-wrap mx-6 pb-6">
+      <div class="w-full md:w-1/2 lg:w-1/4 md:px-1">
         <div class="bg-grey-darkest rounded h-90">
           <div class="p-4">
             <h3 class="text-white mb-4">Trade History</h3>
@@ -143,88 +143,88 @@
               <table class="w-full">
                 <thead>
                   <tr class="mb-6">
-                    <th class="w-1/3 py-3 px-4 text-left whitespace-no-wrap">Price (BTC)</th>
-                    <th class="w-1/3 py-3 px-4 text-left whitespace-no-wrap">Qty (BLN)</th>
-                    <th class="w-1/3 py-3 px-4 text-left">Time</th>
+                    <th class="py-3 px-2 text-left whitespace-no-wrap">Price (BTC)</th>
+                    <th class="py-3 px-2 text-left whitespace-no-wrap">Qty (BLN)</th>
+                    <th class="py-3 px-2 text-left">Time</th>
                   </tr>
                 </thead>
                 <tbody class="">
                   <tr class="hover:bg-grey-darker">
-                    <td class="w-1/3 py-2 px-4 rounded-l-lg text-white whitespace-no-wrap">
+                    <td class="py-2 px-2 rounded-l-lg text-white whitespace-no-wrap">
                       <span class="text-green">&blacktriangle;</span> 550,000.00
                     </td>
-                    <td class="w-1/3 py-2 px-4 text-white">8000.00</td>
-                    <td class="w-1/3 py-2 px-4 rounded-r-lg"> 19:55:01</td>
+                    <td class="py-2 px-2 text-white">8000.00</td>
+                    <td class="py-2 px-2 rounded-r-lg"> 19:55:01</td>
                   </tr>
                   <tr class="hover:bg-grey-darker">
-                    <td class="w-1/3 py-2 px-4 rounded-l-lg text-white whitespace-no-wrap">
+                    <td class="py-2 px-2 rounded-l-lg text-white whitespace-no-wrap">
                       <span class="text-red">&blacktriangledown;</span> 550,000.00
                     </td>
-                    <td class="w-1/3 py-2 px-4 text-white">8000.00</td>
-                    <td class="w-1/3 py-2 px-4 rounded-r-lg"> 19:55:01</td>
+                    <td class="py-2 px-2 text-white">8000.00</td>
+                    <td class="py-2 px-2 rounded-r-lg"> 19:55:01</td>
                   </tr>
                   <tr class="hover:bg-grey-darker">
-                    <td class="w-1/3 py-2 px-4 rounded-l-lg text-white whitespace-no-wrap">
+                    <td class="py-2 px-2 rounded-l-lg text-white whitespace-no-wrap">
                       <span class="text-red">&blacktriangledown;</span> 550,000.00
                     </td>
-                    <td class="w-1/3 py-2 px-4 text-white">8000.00</td>
-                    <td class="w-1/3 py-2 px-4 rounded-r-lg"> 19:55:01</td>
+                    <td class="py-2 px-2 text-white">8000.00</td>
+                    <td class="py-2 px-2 rounded-r-lg"> 19:55:01</td>
                   </tr>
                   <tr class="hover:bg-grey-darker">
-                    <td class="w-1/3 py-2 px-4 rounded-l-lg text-white whitespace-no-wrap">
+                    <td class="py-2 px-2 rounded-l-lg text-white whitespace-no-wrap">
                       <span class="text-red">&blacktriangledown;</span> 550,000.00
                     </td>
-                    <td class="w-1/3 py-2 px-4 text-white">8000.00</td>
-                    <td class="w-1/3 py-2 px-4 rounded-r-lg"> 19:55:01</td>
+                    <td class="py-2 px-2 text-white">8000.00</td>
+                    <td class="py-2 px-2 rounded-r-lg"> 19:55:01</td>
                   </tr>
                   <tr class="hover:bg-grey-darker">
-                    <td class="w-1/3 py-2 px-4 rounded-l-lg text-white whitespace-no-wrap">
+                    <td class="py-2 px-2 rounded-l-lg text-white whitespace-no-wrap">
                       <span class="text-green">&blacktriangle;</span> 550,000.00
                     </td>
-                    <td class="w-1/3 py-2 px-4 text-white">8000.00</td>
-                    <td class="w-1/3 py-2 px-4 rounded-r-lg"> 19:55:01</td>
+                    <td class="py-2 px-2 text-white">8000.00</td>
+                    <td class="py-2 px-2 rounded-r-lg"> 19:55:01</td>
                   </tr>
                   <tr class="hover:bg-grey-darker">
-                    <td class="w-1/3 py-2 px-4 rounded-l-lg text-white whitespace-no-wrap">
+                    <td class="py-2 px-2 rounded-l-lg text-white whitespace-no-wrap">
                       <span class="text-red">&blacktriangledown;</span> 550,000.00
                     </td>
-                    <td class="w-1/3 py-2 px-4 text-white">8000.00</td>
-                    <td class="w-1/3 py-2 px-4 rounded-r-lg"> 19:55:01</td>
+                    <td class="py-2 px-2 text-white">8000.00</td>
+                    <td class="py-2 px-2 rounded-r-lg"> 19:55:01</td>
                   </tr>
                   <tr class="hover:bg-grey-darker">
-                    <td class="w-1/3 py-2 px-4 rounded-l-lg text-white whitespace-no-wrap">
+                    <td class="py-2 px-2 rounded-l-lg text-white whitespace-no-wrap">
                       <span class="text-green">&blacktriangle;</span> 550,000.00
                     </td>
-                    <td class="w-1/3 py-2 px-4 text-white">8000.00</td>
-                    <td class="w-1/3 py-2 px-4 rounded-r-lg"> 19:55:01</td>
+                    <td class="py-2 px-2 text-white">8000.00</td>
+                    <td class="py-2 px-2 rounded-r-lg"> 19:55:01</td>
                   </tr>
                   <tr class="hover:bg-grey-darker">
-                    <td class="w-1/3 py-2 px-4 rounded-l-lg text-white whitespace-no-wrap">
+                    <td class="py-2 px-2 rounded-l-lg text-white whitespace-no-wrap">
                       <span class="text-red">&blacktriangledown;</span> 550,000.00
                     </td>
-                    <td class="w-1/3 py-2 px-4 text-white">8000.00</td>
-                    <td class="w-1/3 py-2 px-4 rounded-r-lg"> 19:55:01</td>
+                    <td class="py-2 px-2 text-white">8000.00</td>
+                    <td class="py-2 px-2 rounded-r-lg"> 19:55:01</td>
                   </tr>
                   <tr class="hover:bg-grey-darker">
-                    <td class="w-1/3 py-2 px-4 rounded-l-lg text-white whitespace-no-wrap">
+                    <td class="py-2 px-2 rounded-l-lg text-white whitespace-no-wrap">
                       <span class="text-green">&blacktriangle;</span> 550,000.00
                     </td>
-                    <td class="w-1/3 py-2 px-4 text-white">8000.00</td>
-                    <td class="w-1/3 py-2 px-4 rounded-r-lg"> 19:55:01</td>
+                    <td class="py-2 px-2 text-white">8000.00</td>
+                    <td class="py-2 px-2 rounded-r-lg"> 19:55:01</td>
                   </tr>
                   <tr class="hover:bg-grey-darker">
-                    <td class="w-1/3 py-2 px-4 rounded-l-lg text-white whitespace-no-wrap">
+                    <td class="py-2 px-2 rounded-l-lg text-white whitespace-no-wrap">
                       <span class="text-red">&blacktriangledown;</span> 550,000.00
                     </td>
-                    <td class="w-1/3 py-2 px-4 text-white">8000.00</td>
-                    <td class="w-1/3 py-2 px-4 rounded-r-lg"> 19:55:01</td>
+                    <td class="py-2 px-2 text-white">8000.00</td>
+                    <td class="py-2 px-2 rounded-r-lg"> 19:55:01</td>
                   </tr>
                   <tr class="hover:bg-grey-darker">
-                    <td class="w-1/3 py-2 px-4 rounded-l-lg text-white whitespace-no-wrap">
+                    <td class="py-2 px-2 rounded-l-lg text-white whitespace-no-wrap">
                       <span class="text-green">&blacktriangle;</span> 550,000.00
                     </td>
-                    <td class="w-1/3 py-2 px-4 text-white">8000.00</td>
-                    <td class="w-1/3 py-2 px-4 rounded-r-lg"> 19:55:01</td>
+                    <td class="py-2 px-2 text-white">8000.00</td>
+                    <td class="py-2 px-2 rounded-r-lg"> 19:55:01</td>
                   </tr>
                 </tbody>
               </table>
@@ -232,7 +232,7 @@
           </div>
         </div>
       </div>
-      <div class="w-full lg:w-1/2 md:px-2 mb-6">
+      <div class="w-full lg:w-1/2 md:px-1">
         <div class="bg-grey-darkest rounded h-90">
           <div class="p-4">
             <div class="flex">
@@ -245,88 +245,88 @@
                   <table class="w-full">
                     <thead>
                       <tr class="mb-6">
-                        <th class="w-1/3 py-3 px-4 text-left whitespace-no-wrap">Price (BTC)</th>
-                        <th class="w-1/3 py-3 px-4 text-left whitespace-no-wrap">Qty (BLN)</th>
-                        <th class="w-1/3 py-3 px-4 text-left whitespace-no-wrap">Total (BTC)</th>
+                        <th class="py-3 px-2 text-left whitespace-no-wrap">Price (BTC)</th>
+                        <th class="py-3 px-2 text-left whitespace-no-wrap">Qty (BLN)</th>
+                        <th class="py-3 px-2 text-left whitespace-no-wrap">Total (BTC)</th>
                       </tr>
                     </thead>
                     <tbody class="">
                       <tr class="hover:bg-grey-darker">
-                        <td class="w-1/3 py-2 px-4 rounded-l-lg text-white text-green">
+                        <td class="py-2 px-2 rounded-l-lg text-white text-green">
                           550,000.00
                         </td>
-                        <td class="w-1/3 py-2 px-4 text-white">8000.00</td>
-                        <td class="w-1/3 py-2 px-4 rounded-r-lg text-white"> 10,000.00</td>
+                        <td class="py-2 px-2 text-white">8000.00</td>
+                        <td class="py-2 px-2 rounded-r-lg text-white"> 10,000.00</td>
                       </tr>
                       <tr class="hover:bg-grey-darker">
-                        <td class="w-1/3 py-2 px-4 rounded-l-lg text-white text-green">
+                        <td class="py-2 px-2 rounded-l-lg text-white text-green">
                           550,000.00
                         </td>
-                        <td class="w-1/3 py-2 px-4 text-white">8000.00</td>
-                        <td class="w-1/3 py-2 px-4 rounded-r-lg text-white"> 10,000.00</td>
+                        <td class="py-2 px-2 text-white">8000.00</td>
+                        <td class="py-2 px-2 rounded-r-lg text-white"> 10,000.00</td>
                       </tr>
                       <tr class="hover:bg-grey-darker">
-                        <td class="w-1/3 py-2 px-4 rounded-l-lg text-white text-green">
+                        <td class="py-2 px-2 rounded-l-lg text-white text-green">
                           550,000.00
                         </td>
-                        <td class="w-1/3 py-2 px-4 text-white">8000.00</td>
-                        <td class="w-1/3 py-2 px-4 rounded-r-lg text-white"> 10,000.00</td>
+                        <td class="py-2 px-2 text-white">8000.00</td>
+                        <td class="py-2 px-2 rounded-r-lg text-white"> 10,000.00</td>
                       </tr>
                       <tr class="hover:bg-grey-darker">
-                        <td class="w-1/3 py-2 px-4 rounded-l-lg text-white text-green">
+                        <td class="py-2 px-2 rounded-l-lg text-white text-green">
                           550,000.00
                         </td>
-                        <td class="w-1/3 py-2 px-4 text-white">8000.00</td>
-                        <td class="w-1/3 py-2 px-4 rounded-r-lg text-white"> 10,000.00</td>
+                        <td class="py-2 px-2 text-white">8000.00</td>
+                        <td class="py-2 px-2 rounded-r-lg text-white"> 10,000.00</td>
                       </tr>
                       <tr class="hover:bg-grey-darker">
-                        <td class="w-1/3 py-2 px-4 rounded-l-lg text-white text-green">
+                        <td class="py-2 px-2 rounded-l-lg text-white text-green">
                           550,000.00
                         </td>
-                        <td class="w-1/3 py-2 px-4 text-white">8000.00</td>
-                        <td class="w-1/3 py-2 px-4 rounded-r-lg text-white"> 10,000.00</td>
+                        <td class="py-2 px-2 text-white">8000.00</td>
+                        <td class="py-2 px-2 rounded-r-lg text-white"> 10,000.00</td>
                       </tr>
                       <tr class="hover:bg-grey-darker">
-                        <td class="w-1/3 py-2 px-4 rounded-l-lg text-white text-green">
+                        <td class="py-2 px-2 rounded-l-lg text-white text-green">
                           550,000.00
                         </td>
-                        <td class="w-1/3 py-2 px-4 text-white">8000.00</td>
-                        <td class="w-1/3 py-2 px-4 rounded-r-lg text-white"> 10,000.00</td>
+                        <td class="py-2 px-2 text-white">8000.00</td>
+                        <td class="py-2 px-2 rounded-r-lg text-white"> 10,000.00</td>
                       </tr>
                       <tr class="hover:bg-grey-darker">
-                        <td class="w-1/3 py-2 px-4 rounded-l-lg text-white text-green">
+                        <td class="py-2 px-2 rounded-l-lg text-white text-green">
                           550,000.00
                         </td>
-                        <td class="w-1/3 py-2 px-4 text-white">8000.00</td>
-                        <td class="w-1/3 py-2 px-4 rounded-r-lg text-white"> 10,000.00</td>
+                        <td class="py-2 px-2 text-white">8000.00</td>
+                        <td class="py-2 px-2 rounded-r-lg text-white"> 10,000.00</td>
                       </tr>
                       <tr class="hover:bg-grey-darker">
-                        <td class="w-1/3 py-2 px-4 rounded-l-lg text-white text-green">
+                        <td class="py-2 px-2 rounded-l-lg text-white text-green">
                           550,000.00
                         </td>
-                        <td class="w-1/3 py-2 px-4 text-white">8000.00</td>
-                        <td class="w-1/3 py-2 px-4 rounded-r-lg text-white"> 10,000.00</td>
+                        <td class="py-2 px-2 text-white">8000.00</td>
+                        <td class="py-2 px-2 rounded-r-lg text-white"> 10,000.00</td>
                       </tr>
                       <tr class="hover:bg-grey-darker">
-                        <td class="w-1/3 py-2 px-4 rounded-l-lg text-white text-green">
+                        <td class="py-2 px-2 rounded-l-lg text-white text-green">
                           550,000.00
                         </td>
-                        <td class="w-1/3 py-2 px-4 text-white">8000.00</td>
-                        <td class="w-1/3 py-2 px-4 rounded-r-lg text-white"> 10,000.00</td>
+                        <td class="py-2 px-2 text-white">8000.00</td>
+                        <td class="py-2 px-2 rounded-r-lg text-white"> 10,000.00</td>
                       </tr>
                       <tr class="hover:bg-grey-darker">
-                        <td class="w-1/3 py-2 px-4 rounded-l-lg text-white text-green">
+                        <td class="py-2 px-2 rounded-l-lg text-white text-green">
                           550,000.00
                         </td>
-                        <td class="w-1/3 py-2 px-4 text-white">8000.00</td>
-                        <td class="w-1/3 py-2 px-4 rounded-r-lg text-white"> 10,000.00</td>
+                        <td class="py-2 px-2 text-white">8000.00</td>
+                        <td class="py-2 px-2 rounded-r-lg text-white"> 10,000.00</td>
                       </tr>
                       <tr class="hover:bg-grey-darker">
-                        <td class="w-1/3 py-2 px-4 rounded-l-lg text-white text-green">
+                        <td class="py-2 px-2 rounded-l-lg text-white text-green">
                           550,000.00
                         </td>
-                        <td class="w-1/3 py-2 px-4 text-white">8000.00</td>
-                        <td class="w-1/3 py-2 px-4 rounded-r-lg text-white"> 10,000.00</td>
+                        <td class="py-2 px-2 text-white">8000.00</td>
+                        <td class="py-2 px-2 rounded-r-lg text-white"> 10,000.00</td>
                       </tr>
                     </tbody>
                   </table>
@@ -341,88 +341,88 @@
                   <table class="w-full">
                     <thead>
                       <tr class="mb-6">
-                        <th class="w-1/3 py-3 px-4 text-left whitespace-no-wrap">Price (BLN)</th>
-                        <th class="w-1/3 py-3 px-4 text-left whitespace-no-wrap">Qty (BTC)</th>
-                        <th class="w-1/3 py-3 px-4 text-left whitespace-no-wrap">Total (BLN)</th>
+                        <th class="py-3 px-2 text-left whitespace-no-wrap">Price (BLN)</th>
+                        <th class="py-3 px-2 text-left whitespace-no-wrap">Qty (BTC)</th>
+                        <th class="py-3 px-2 text-left whitespace-no-wrap">Total (BLN)</th>
                       </tr>
                     </thead>
                     <tbody class="">
                       <tr class="hover:bg-grey-darker">
-                        <td class="w-1/3 py-2 px-4 rounded-l-lg text-white text-red">
+                        <td class="py-2 px-2 rounded-l-lg text-white text-red">
                           550,000.00
                         </td>
-                        <td class="w-1/3 py-2 px-4 text-white">8000.00</td>
-                        <td class="w-1/3 py-2 px-4 rounded-r-lg text-white"> 10,000.00</td>
+                        <td class="py-2 px-2 text-white">8000.00</td>
+                        <td class="py-2 px-2 rounded-r-lg text-white"> 10,000.00</td>
                       </tr>
                       <tr class="hover:bg-grey-darker">
-                        <td class="w-1/3 py-2 px-4 rounded-l-lg text-white text-red">
+                        <td class="py-2 px-2 rounded-l-lg text-white text-red">
                           550,000.00
                         </td>
-                        <td class="w-1/3 py-2 px-4 text-white">8000.00</td>
-                        <td class="w-1/3 py-2 px-4 rounded-r-lg text-white"> 10,000.00</td>
+                        <td class="py-2 px-2 text-white">8000.00</td>
+                        <td class="py-2 px-2 rounded-r-lg text-white"> 10,000.00</td>
                       </tr>
                       <tr class="hover:bg-grey-darker">
-                        <td class="w-1/3 py-2 px-4 rounded-l-lg text-white text-red">
+                        <td class="py-2 px-2 rounded-l-lg text-white text-red">
                           550,000.00
                         </td>
-                        <td class="w-1/3 py-2 px-4 text-white">8000.00</td>
-                        <td class="w-1/3 py-2 px-4 rounded-r-lg text-white"> 10,000.00</td>
+                        <td class="py-2 px-2 text-white">8000.00</td>
+                        <td class="py-2 px-2 rounded-r-lg text-white"> 10,000.00</td>
                       </tr>
                       <tr class="hover:bg-grey-darker">
-                        <td class="w-1/3 py-2 px-4 rounded-l-lg text-white text-red">
+                        <td class="py-2 px-2 rounded-l-lg text-white text-red">
                           550,000.00
                         </td>
-                        <td class="w-1/3 py-2 px-4 text-white">8000.00</td>
-                        <td class="w-1/3 py-2 px-4 rounded-r-lg text-white"> 10,000.00</td>
+                        <td class="py-2 px-2 text-white">8000.00</td>
+                        <td class="py-2 px-2 rounded-r-lg text-white"> 10,000.00</td>
                       </tr>
                       <tr class="hover:bg-grey-darker">
-                        <td class="w-1/3 py-2 px-4 rounded-l-lg text-white text-red">
+                        <td class="py-2 px-2 rounded-l-lg text-white text-red">
                           550,000.00
                         </td>
-                        <td class="w-1/3 py-2 px-4 text-white">8000.00</td>
-                        <td class="w-1/3 py-2 px-4 rounded-r-lg text-white"> 10,000.00</td>
+                        <td class="py-2 px-2 text-white">8000.00</td>
+                        <td class="py-2 px-2 rounded-r-lg text-white"> 10,000.00</td>
                       </tr>
                       <tr class="hover:bg-grey-darker">
-                        <td class="w-1/3 py-2 px-4 rounded-l-lg text-white text-red">
+                        <td class="py-2 px-2 rounded-l-lg text-white text-red">
                           550,000.00
                         </td>
-                        <td class="w-1/3 py-2 px-4 text-white">8000.00</td>
-                        <td class="w-1/3 py-2 px-4 rounded-r-lg text-white"> 10,000.00</td>
+                        <td class="py-2 px-2 text-white">8000.00</td>
+                        <td class="py-2 px-2 rounded-r-lg text-white"> 10,000.00</td>
                       </tr>
                       <tr class="hover:bg-grey-darker">
-                        <td class="w-1/3 py-2 px-4 rounded-l-lg text-white text-red">
+                        <td class="py-2 px-2 rounded-l-lg text-white text-red">
                           550,000.00
                         </td>
-                        <td class="w-1/3 py-2 px-4 text-white">8000.00</td>
-                        <td class="w-1/3 py-2 px-4 rounded-r-lg text-white"> 10,000.00</td>
+                        <td class="py-2 px-2 text-white">8000.00</td>
+                        <td class="py-2 px-2 rounded-r-lg text-white"> 10,000.00</td>
                       </tr>
                       <tr class="hover:bg-grey-darker">
-                        <td class="w-1/3 py-2 px-4 rounded-l-lg text-white text-red">
+                        <td class="py-2 px-2 rounded-l-lg text-white text-red">
                           550,000.00
                         </td>
-                        <td class="w-1/3 py-2 px-4 text-white">8000.00</td>
-                        <td class="w-1/3 py-2 px-4 rounded-r-lg text-white"> 10,000.00</td>
+                        <td class="py-2 px-2 text-white">8000.00</td>
+                        <td class="py-2 px-2 rounded-r-lg text-white"> 10,000.00</td>
                       </tr>
                       <tr class="hover:bg-grey-darker">
-                        <td class="w-1/3 py-2 px-4 rounded-l-lg text-white text-red">
+                        <td class="py-2 px-2 rounded-l-lg text-white text-red">
                           550,000.00
                         </td>
-                        <td class="w-1/3 py-2 px-4 text-white">8000.00</td>
-                        <td class="w-1/3 py-2 px-4 rounded-r-lg text-white"> 10,000.00</td>
+                        <td class="py-2 px-2 text-white">8000.00</td>
+                        <td class="py-2 px-2 rounded-r-lg text-white"> 10,000.00</td>
                       </tr>
                       <tr class="hover:bg-grey-darker">
-                        <td class="w-1/3 py-2 px-4 rounded-l-lg text-white text-red">
+                        <td class="py-2 px-2 rounded-l-lg text-white text-red">
                           550,000.00
                         </td>
-                        <td class="w-1/3 py-2 px-4 text-white">8000.00</td>
-                        <td class="w-1/3 py-2 px-4 rounded-r-lg text-white"> 10,000.00</td>
+                        <td class="py-2 px-2 text-white">8000.00</td>
+                        <td class="py-2 px-2 rounded-r-lg text-white"> 10,000.00</td>
                       </tr>
                       <tr class="hover:bg-grey-darker">
-                        <td class="w-1/3 py-2 px-4 rounded-l-lg text-white text-red">
+                        <td class="py-2 px-2 rounded-l-lg text-white text-red">
                           550,000.00
                         </td>
-                        <td class="w-1/3 py-2 px-4 text-white">8000.00</td>
-                        <td class="w-1/3 py-2 px-4 rounded-r-lg text-white"> 10,000.00</td>
+                        <td class="py-2 px-2 text-white">8000.00</td>
+                        <td class="py-2 px-2 rounded-r-lg text-white"> 10,000.00</td>
                       </tr>
                     </tbody>
                   </table>
@@ -432,11 +432,116 @@
           </div>
         </div>
       </div>
-      <div class="w-full md:w-1/2 lg:w-1/4 md:px-2 mb-6">
+      <div class="w-full md:w-1/2 lg:w-1/4 md:px-1">
         <div class="bg-grey-darkest rounded h-90">
           <div class="p-4">
-            <h3 class="text-white mb-4">My Orders</h3>
-            
+            <div class="min-h-full">
+              <div class="flex justify-between mb-4">
+                <h3 class="text-white">My Orders</h3>
+                <a href="#" class="text-white py-2 px-4 rounded-lg bg-grey-darker no-underline">View All</a>
+              </div>
+              <div data-simplebar class="w-full overflow-y-auto h-75">
+                <table class="w-full">
+                  <thead>
+                    <tr class="mb-6">
+                      <th class="py-3 px-2 text-left whitespace-no-wrap">Price (BTC)</th>
+                      <th class="py-3 px-2 text-left whitespace-no-wrap">Qty (BLN)</th>
+                      <th class="py-3 px-2 text-left whitespace-no-wrap">Total (BTC)</th>
+                      <th class="py-3 px-2"></th>
+                    </tr>
+                  </thead>
+                  <tbody class="">
+                    <tr class="hover:bg-grey-darker">
+                      <td class="py-2 px-2 rounded-l-lg text-white text-green">
+                        550,000.00
+                      </td>
+                      <td class="py-2 px-2 text-white">8000.00</td>
+                      <td class="py-2 px-2 text-white"> 10,000.00</td>
+                      <td class="py-2 px-2 rounded-r-lg">
+                        <a href="#" class="w-4 h-4 flex justify-center items-center bg-red text-white no-underline rounded-full block"></a>
+                      </td>
+                    </tr>
+                    <tr class="hover:bg-grey-darker">
+                      <td class="py-2 px-2 rounded-l-lg text-white text-green">
+                        550,000.00
+                      </td>
+                      <td class="py-2 px-2 text-white">8000.00</td>
+                      <td class="py-2 px-2 rounded-r-lg text-white"> 10,000.00</td>
+                    </tr>
+                    <tr class="hover:bg-grey-darker">
+                      <td class="py-2 px-2 rounded-l-lg text-white text-green">
+                        550,000.00
+                      </td>
+                      <td class="py-2 px-2 text-white">8000.00</td>
+                      <td class="py-2 px-2 rounded-r-lg text-white"> 10,000.00</td>
+                    </tr>
+                    <tr class="hover:bg-grey-darker">
+                      <td class="py-2 px-2 rounded-l-lg text-white text-green">
+                        550,000.00
+                      </td>
+                      <td class="py-2 px-2 text-white">8000.00</td>
+                      <td class="py-2 px-2 rounded-r-lg text-white"> 10,000.00</td>
+                    </tr>
+                    <tr class="hover:bg-grey-darker">
+                      <td class="py-2 px-2 rounded-l-lg text-white text-green">
+                        550,000.00
+                      </td>
+                      <td class="py-2 px-2 text-white">8000.00</td>
+                      <td class="py-2 px-2 rounded-r-lg text-white"> 10,000.00</td>
+                    </tr>
+                    <tr class="hover:bg-grey-darker">
+                      <td class="py-2 px-2 rounded-l-lg text-white text-green">
+                        550,000.00
+                      </td>
+                      <td class="py-2 px-2 text-white">8000.00</td>
+                      <td class="py-2 px-2 rounded-r-lg text-white"> 10,000.00</td>
+                    </tr>
+                    <tr class="hover:bg-grey-darker">
+                      <td class="py-2 px-2 rounded-l-lg text-white text-red">
+                        550,000.00
+                      </td>
+                      <td class="py-2 px-2 text-white">8000.00</td>
+                      <td class="py-2 px-2 rounded-r-lg text-white"> 10,000.00</td>
+                    </tr>
+                    <tr class="hover:bg-grey-darker">
+                      <td class="py-2 px-2 rounded-l-lg text-white text-red">
+                        550,000.00
+                      </td>
+                      <td class="py-2 px-2 text-white">8000.00</td>
+                      <td class="py-2 px-2 rounded-r-lg text-white"> 10,000.00</td>
+                    </tr>
+                    <tr class="hover:bg-grey-darker">
+                      <td class="py-2 px-2 rounded-l-lg text-white text-red">
+                        550,000.00
+                      </td>
+                      <td class="py-2 px-2 text-white">8000.00</td>
+                      <td class="py-2 px-2 rounded-r-lg text-white"> 10,000.00</td>
+                    </tr>
+                    <tr class="hover:bg-grey-darker">
+                      <td class="py-2 px-2 rounded-l-lg text-white text-red">
+                        550,000.00
+                      </td>
+                      <td class="py-2 px-2 text-white">8000.00</td>
+                      <td class="py-2 px-2 rounded-r-lg text-white"> 10,000.00</td>
+                    </tr>
+                    <tr class="hover:bg-grey-darker">
+                      <td class="py-2 px-2 rounded-l-lg text-white text-red">
+                        550,000.00
+                      </td>
+                      <td class="py-2 px-2 text-white">8000.00</td>
+                      <td class="py-2 px-2 rounded-r-lg text-white"> 10,000.00</td>
+                    </tr>
+                    <tr class="hover:bg-grey-darker">
+                      <td class="py-2 px-2 rounded-l-lg text-white text-red">
+                        550,000.00
+                      </td>
+                      <td class="py-2 px-2 text-white">8000.00</td>
+                      <td class="py-2 px-2 rounded-r-lg text-white"> 10,000.00</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
           </div>
         </div>
       </div>
