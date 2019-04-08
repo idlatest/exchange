@@ -10,7 +10,7 @@
       </ul>
     </div>
     <div class="flex flex-wrap mx-6 mt-6 mb-2">
-      <div class="w-full md:w-1/2 lg:w-1/4 md:px-1">
+      <div class="w-full md:w-1/2 lg:w-1/4 md:px-1 md:mb-0 mb-2">
         <div class="bg-grey-darkest rounded h-90">
           <div class="p-4">
             <h3 class="text-white mb-4">Markets: <span class="ml-6">BLN/BTC</span></h3>
@@ -95,7 +95,7 @@
           </div>
         </div>
       </div>
-      <div class="w-full lg:w-1/2 md:px-1">
+      <div class="w-full lg:w-1/2 md:px-1 md:mb-0 mb-2">
         <div class="bg-grey-darkest rounded h-90">
           <div class="p-4">
             <h3 class="text-white">Chart</h3>
@@ -135,7 +135,7 @@
       </div>
     </div>
     <div class="flex flex-wrap mx-6 pb-6">
-      <div class="w-full md:w-1/2 lg:w-1/4 md:px-1">
+      <div class="w-full md:w-1/2 lg:w-1/4 md:px-1 md:mb-0 mb-2">
         <div class="bg-grey-darkest rounded h-90">
           <div class="p-4">
             <h3 class="text-white mb-4">Trade History</h3>
@@ -232,11 +232,11 @@
           </div>
         </div>
       </div>
-      <div class="w-full lg:w-1/2 md:px-1">
-        <div class="bg-grey-darkest rounded h-90">
+      <div class="w-full lg:w-1/2 md:px-1 md:mb-0 mb-2">
+        <div class="bg-grey-darkest rounded min-h-full">
           <div class="p-4">
-            <div class="flex">
-              <div class="w-1/2 min-h-full pr-4 border-r-2 border-black">
+            <div class="block md:flex">
+              <div class="w-full md:w-1/2 min-h-full md:pr-4 md:border-r-2 md:border-black mb-6  md:mb-0">
                 <div class="flex justify-between mb-4">
                   <h3 class="text-white">Buy Orders</h3>
                   <div class="font-bold">Total: <span class="text-white">550,000.0</span> BTC</div>
@@ -332,7 +332,7 @@
                   </table>
                 </div>
               </div>
-              <div class="w-1/2 pl-4">
+              <div class="w-full md:w-1/2 pl-0 md:pl-4">
                 <div class="flex justify-between mb-4">
                   <h3 class="text-white">Sell Orders</h3>
                   <div class="font-bold">Total: <span class="text-white">550,000.0</span> BLN</div>
