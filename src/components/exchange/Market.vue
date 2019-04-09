@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full md:w-1/4 md:px-1 lg:mb-0 mb-2">
+  <div class="md:px-1 lg:mb-0 mb-2">
     <div class="bg-grey-darkest rounded h-90">
       <div class="p-4">
         <h3 class="text-white mb-4">Markets: <span class="ml-6">BLN/BTC</span></h3>

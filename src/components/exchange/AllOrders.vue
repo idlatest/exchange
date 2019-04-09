@@ -1,6 +1,6 @@
 <template>
-  <div class="w-full md:w-1/2 md:px-1 md:mb-0 mb-2">
-    <div class="bg-grey-darkest rounded min-h-full">
+  <div class="md:px-1 md:mb-0 mb-2">
+    <div class="bg-grey-darkest rounded min-h-full md:h-90">
       <div class="p-4">
         <div class="block md:flex">
           <div class="w-full md:w-1/2 min-h-full md:pr-4 md:border-r-2 md:border-black mb-6  md:mb-0">

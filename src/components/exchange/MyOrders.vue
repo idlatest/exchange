@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full md:w-1/4 md:px-1">
+  <div class="md:px-1">
     <div class="bg-grey-darkest rounded h-90">
       <div class="p-4">
         <div class="min-h-full">
