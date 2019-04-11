@@ -12,9 +12,12 @@
       </div>
       <div class="w-full hidden flex-grow lg:block lg:flex lg:items-center lg:w-auto">
         <div class="text-sm lg:flex-grow">
-          <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-grey no-underline hover:text-white mr-4">
+          <router-link to="/" class="block mt-4 lg:inline-block lg:mt-0 text-grey no-underline hover:text-white mr-4">
             Exchange
-          </a>
+          </router-link>
+          <router-link to="funds" class="block mt-4 lg:inline-block lg:mt-0 text-grey no-underline hover:text-white mr-4">
+            Funds
+          </router-link>
           <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-grey no-underline hover:text-white mr-4">
             Trade
           </a>
