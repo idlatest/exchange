@@ -32,9 +32,9 @@
           </a>
         </div>
         <div>
-          <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded no-underline text-white border-white bg-teal hover:border-transparent hover:text-teal hover:bg-white mt-4 lg:mt-0">
+          <router-link to="/account" class="inline-block text-sm px-4 py-2 leading-none border rounded no-underline text-white border-white bg-teal hover:border-transparent hover:text-teal hover:bg-white mt-4 lg:mt-0">
             ideeofficial@gmail.com <span class="ml-2">&blacktriangledown;</span>
-          </a>
+          </router-link>
         </div>
       </div>
       <!-- <div class="flex flex-wrap">
@@ -68,4 +68,52 @@ export default {
   @tailwind preflight;
   @tailwind components;
   @tailwind utilities;
+
+  /* SWITCH STYLES */
+  /* SOURCE: https://proto.io/freebies/onoff/ */
+  .onoffswitch {
+      position: relative; width: 56px;
+      -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+  }
+  .onoffswitch-checkbox {
+      display: none;
+  }
+  .onoffswitch-label {
+      display: block; overflow: hidden; cursor: pointer;
+      border: 2px solid #FFFFFF; border-radius: 20px;
+  }
+  .onoffswitch-inner {
+      display: block; width: 200%; margin-left: -100%;
+      transition: margin 0.3s ease-in 0s;
+  }
+  .onoffswitch-inner:before, .onoffswitch-inner:after {
+      display: block; float: left; width: 50%; height: 22px; padding: 0; line-height: 22px;
+      font-size: 12px; color: black; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+      box-sizing: border-box;
+  }
+  .onoffswitch-inner:before {
+      content: "ON";
+      padding-left: 6px;
+      background-color: #38c172; color: #FFFFFF;
+  }
+  .onoffswitch-inner:after {
+      content: "OFF";
+      padding-right: 6px;
+      background-color: #E85764; color: #FFFFFF;
+      text-align: right;
+  }
+  .onoffswitch-switch {
+      display: block; width: 12px; margin: 5px;
+      background: #FFFFFF;
+      position: absolute; top: 0; bottom: 0;
+      right: 30px;
+      border: 2px solid #FFFFFF; border-radius: 20px;
+      transition: all 0.3s ease-in 0s; 
+  }
+  .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+      margin-left: 0;
+  }
+  .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+      right: 0px; 
+  }
 </style>

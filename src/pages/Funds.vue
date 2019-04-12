@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-6 mt-6 mb-2">
+  <div class="mx-6 mt-6 pb-6">
     <h1 class="mb-4">Funds</h1>
     <div class="bg-grey-darkest rounded p-4 overflow-x-auto">
       <table class="w-full">
