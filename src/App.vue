@@ -80,7 +80,7 @@ export default {
   }
   .onoffswitch-label {
       display: block; overflow: hidden; cursor: pointer;
-      border: 2px solid #FFFFFF; border-radius: 20px;
+      border-radius: 20px;
   }
   .onoffswitch-inner {
       display: block; width: 200%; margin-left: -100%;
