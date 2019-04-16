@@ -12,17 +12,17 @@
             <div class="md:flex">
               <div class="w-full md:w-1/2 md:mr-2 mb-6">
                 <label for="firstName" class="block mb-2 font-bold">First Name</label>
-                <input type="text" id="firstName" placeholder="Idongesit" class="w-full px-4 py-2 rounded bg-black text-grey">
+                <input type="text" id="firstName" placeholder="Idongesit" class="w-full h-12 px-4 py-2 rounded bg-black text-grey">
               </div>
               <div class="w-full md:w-1/2 md:ml-2 mb-6">
                 <label for="lastName" class="block mb-2 font-bold">Last Name</label>
-                <input type="text" id="lastName" placeholder="Ntuk" class="w-full px-4 py-2 rounded bg-black text-grey">
+                <input type="text" id="lastName" placeholder="Ntuk" class="w-full h-12 px-4 py-2 rounded bg-black text-grey">
               </div>
             </div>
             <div class="md:flex">
               <div class="w-full md:w-1/2 md:mr-2 mb-6">
                 <label for="email" class="block mb-2 font-bold">Email</label>
-                <input type="email" id="email" placeholder="ideeofficial@gmail.com" class="w-full px-4 py-2 rounded bg-black text-grey">
+                <input type="email" id="email" placeholder="ideeofficial@gmail.com" class="w-full h-12 px-4 py-2 rounded bg-black text-grey">
               </div>
             </div>
             <div class="text-right">
@@ -43,17 +43,17 @@
             <div class="md:flex">
               <div class="w-full md:w-1/2 md:mr-2 mb-6">
                 <label for="oldPassword" class="block mb-2 font-bold">Old Password</label>
-                <input type="password" id="oldPassword" class="w-full px-4 py-2 rounded bg-black text-grey">
+                <input type="password" id="oldPassword" class="w-full h-12 px-4 py-2 rounded bg-black text-grey">
               </div>
               <div class="w-full md:w-1/2 md:ml-2 mb-6">
                 <label for="newPassword" class="block mb-2 font-bold">New Password</label>
-                <input type="password" id="newPassword" class="w-full px-4 py-2 rounded bg-black text-grey">
+                <input type="password" id="newPassword" class="w-full h-12 px-4 py-2 rounded bg-black text-grey">
               </div>
             </div>
             <div class="md:flex">
               <div class="w-full md:w-1/2 md:mr-2 mb-6">
                 <label for="confirmPassword" class="block mb-2 font-bold">Confirm Password</label>
-                <input type="password" id="confirmPassword" class="w-full px-4 py-2 rounded bg-black text-grey">
+                <input type="password" id="confirmPassword" class="w-full h-12 px-4 py-2 rounded bg-black text-grey">
               </div>
             </div>
             <div class="text-right">

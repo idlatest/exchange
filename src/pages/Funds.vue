@@ -21,8 +21,8 @@
             <td class="px-2 py-2">0.00000000</td>
             <td class="px-2 py-2">0.00000000</td>
             <td class="px-2 py-2 text-center whitespace-no-wrap">
-              <button type="button" class="px-4 py-2 rounded mr-4 text-white bg-blue">Deposit</button>
-              <button type="button" class="px-4 py-2 rounded text-white bg-red">Withdraw</button>
+              <router-link to="deposit" class="px-4 py-2 rounded mr-4 text-white bg-blue">Deposit</router-link>
+              <router-link to="withdraw" class="px-4 py-2 rounded text-white bg-red">Withdraw</router-link>
             </td>
           </tr>
           <tr>
@@ -33,8 +33,8 @@
             <td class="px-2 py-2">0.00000000</td>
             <td class="px-2 py-2">0.00000000</td>
             <td class="px-2 py-2 text-center whitespace-no-wrap">
-              <button type="button" class="px-4 py-2 rounded mr-4 text-white bg-blue">Deposit</button>
-              <button type="button" class="px-4 py-2 rounded text-white bg-red">Withdraw</button>
+              <router-link to="deposit" class="px-4 py-2 rounded mr-4 text-white bg-blue">Deposit</router-link>
+              <router-link to="withdraw" class="px-4 py-2 rounded text-white bg-red">Withdraw</router-link>
             </td>
           </tr>
           <tr>
@@ -45,8 +45,8 @@
             <td class="px-2 py-2">0.00000000</td>
             <td class="px-2 py-2">0.00000000</td>
             <td class="px-2 py-2 text-center whitespace-no-wrap">
-              <button type="button" class="px-4 py-2 rounded mr-4 text-white bg-blue">Deposit</button>
-              <button type="button" class="px-4 py-2 rounded text-white bg-red">Withdraw</button>
+              <router-link to="deposit" class="px-4 py-2 rounded mr-4 text-white bg-blue">Deposit</router-link>
+              <router-link to="withdraw" class="px-4 py-2 rounded text-white bg-red">Withdraw</router-link>
             </td>
           </tr>
         </tbody>

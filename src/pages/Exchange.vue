@@ -9,46 +9,7 @@
         <Chart />
       </div>
       <div class="w-full md:w-1/4">
-        <Trade>
-          <TradeForm name="Buy BTC">
-            <div>
-              <div class="mb-4">
-                <label for="price" class="font-bold block mb-2">Price:</label>
-                <input type="text" id="price" class="w-full px-4 py-2 rounded bg-black text-grey">
-              </div>
-              <div class="mb-4">
-                <label for="price" class="font-bold block mb-2">Qty:</label>
-                <input type="text" id="price" class="w-full px-4 py-2 rounded bg-black text-grey">
-              </div>
-              <div class="mb-4">
-                <label for="price" class="font-bold block mb-2">Total:</label>
-                <input type="text" id="price" class="w-full px-4 py-2 rounded bg-black text-grey">
-              </div>
-              <div class="text-right">
-                <input type="submit" value="Buy BTC" class="px-4 py-2 rounded bg-green text-white">
-              </div>
-            </div>
-          </TradeForm>
-          <TradeForm name="Sell BLN">
-            <div>
-              <div class="mb-4">
-                <label for="price" class="font-bold block mb-2">Price:</label>
-                <input type="text" id="price" class="w-full px-4 py-2 rounded bg-black text-grey">
-              </div>
-              <div class="mb-4">
-                <label for="price" class="font-bold block mb-2">Qty:</label>
-                <input type="text" id="price" class="w-full px-4 py-2 rounded bg-black text-grey">
-              </div>
-              <div class="mb-4">
-                <label for="price" class="font-bold block mb-2">Total:</label>
-                <input type="text" id="price" class="w-full px-4 py-2 rounded bg-black text-grey">
-              </div>
-              <div class="text-right">
-                <input type="submit" value="Sell BLN" class="px-4 py-2 rounded bg-green text-white">
-              </div>
-            </div>
-          </TradeForm>
-        </Trade>
+        <Trade />
       </div>
     </div>
     <div class="flex flex-wrap mx-6 pb-6">
@@ -73,7 +34,6 @@ import Trade from '@/components/exchange/Trade'
 import TradeHistory from '@/components/exchange/TradeHistory'
 import AllOrders from '@/components/exchange/AllOrders'
 import MyOrders from '@/components/exchange/MyOrders'
-import TradeForm from '@/components/exchange/TradeForm'
 
 export default {
   name: 'exchange',
@@ -84,8 +44,7 @@ export default {
     Trade,
     TradeHistory,
     AllOrders,
-    MyOrders,
-    TradeForm
+    MyOrders
   }
 }
 </script>
